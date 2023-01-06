@@ -1,0 +1,8 @@
+# jetbrains IDE config files
+.idea
+
+# build directory for rust projects
+/target
+
+# locked dependencies libraries form crates.io
+/Cargo.lock
