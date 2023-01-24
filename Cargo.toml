@@ -1,5 +1,10 @@
 [workspace]
 
 members = [
-    "minifilter-rust",
+    "minifilter",
 ]
+
+[profile.release]
+opt-level = 3
+codegen-units = 1
+lto = true

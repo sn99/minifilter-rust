@@ -1,5 +1,5 @@
 [package]
-name = "minifilter-rust"
+name = "minifilter"
 version = "0.1.0"
 edition = "2021"
 build = "build.rs"
@@ -12,3 +12,7 @@ path = "src/lib.rs"
 crate-type = ["cdylib"]
 
 [dependencies]
+
+[build-dependencies]
+winreg = "0.10.1"
+failure = "0.1.8"
